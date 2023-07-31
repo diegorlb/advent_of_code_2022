@@ -2,10 +2,12 @@
 use day_01::{run_day_01_part_1, run_day_01_part_2};
 use day_02::{run_day_02_part_1, run_day_02_part_2};
 use day_03::{run_day_03_part_1, run_day_03_part_2};
+use day_04::{run_day_04_part_1, run_day_04_part_2};
 
 pub mod day_01;
 pub mod day_02;
 pub mod day_03;
+pub mod day_04;
 
 fn main() {
   // === DAY 01 ===
@@ -18,9 +20,12 @@ fn main() {
 
   // === DAY 03 ===
   // run_day_03_part_1();
-  run_day_03_part_2();
+  // run_day_03_part_2();
 
   // === DAY 04 ===
+  // run_day_04_part_1();
+  run_day_04_part_2();
+
   // === DAY 05 ===
   // === DAY 06 ===
   // === DAY 07 ===
