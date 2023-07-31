@@ -1,14 +1,19 @@
-#[allow(unused_imports)]
+#![allow(unused_imports)]
 use day_01::{run_day_01_part_1, run_day_01_part_2};
+use day_02::{run_day_02_part_1, run_day_02_part_2};
 
 pub mod day_01;
+pub mod day_02;
 
 fn main() {
   // === DAY 01 ===
   // run_day_01_part_1();
-  run_day_01_part_2();
+  // run_day_01_part_2();
 
   // === DAY 02 ===
+  // run_day_02_part_1();
+  run_day_02_part_2();
+
   // === DAY 03 ===
   // === DAY 04 ===
   // === DAY 05 ===
